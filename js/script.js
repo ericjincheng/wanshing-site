@@ -1,6 +1,10 @@
 // --- CONFIGURATION ---
-const PROJECT_ID = '7rppd6fc'; 
-const DATASET = 'production';
+const client = SanityClient.createClient({
+  projectId: '7rppd6fc',
+  dataset: 'production',
+  useCdn: true, // Use the edge cache for speed
+  apiVersion: '2026-03-31', // Use today's date
+});
 
 // This is "GROQ" - Sanity's language to ask for specific data
 const QUERY = encodeURIComponent('*[_type == "product"]{title, description, price, "imageUrl": images[0].asset->url}');
