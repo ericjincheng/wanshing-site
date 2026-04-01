@@ -30,6 +30,7 @@
     "eslint-config-next": "14.2.29"
   },
   "overrides": {
-    "jiti": "^1.21.7"
+    "jiti": "^1.21.7",
+    "postcss-load-config": "4.0.2"
   }
 }
