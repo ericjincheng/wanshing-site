@@ -1,6 +1,5 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+const config = {
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -73,7 +72,9 @@ const config: Config = {
       // ─── Box Shadows ──────────────────────────────────────────────
       boxShadow: {
         'ws-red':    '0 10px 40px -10px rgba(200, 16, 46, 0.2)',
-        'ws-red-lg': '0 20px 60px -15px rgba(200, 16, 46, 0.25)',
+        'ws-red-lg': '0 20px 60px -15px rgba(200, 16, 46, 0.3)',
+        'steel':     '0 4px 24px -4px rgba(15, 23, 42, 0.12)',
+        'steel-lg':  '0 16px 48px -8px rgba(15, 23, 42, 0.18)',
       },
     },
   },
