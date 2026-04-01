@@ -11,4 +11,3 @@ interface Props {
 
 export default function EquipmentDetailRedirect({ params }: Props) {
   redirect(`/en/equipment/${params.slug}`)
-}

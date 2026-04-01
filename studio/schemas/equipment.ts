@@ -209,4 +209,4 @@ const BRAND_LABELS = {
   mitsubishi:  'Mitsubishi',
   komatsu:     'Komatsu',
   other:       'Other',
-} as const
+}

@@ -28,5 +28,8 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^8",
     "eslint-config-next": "14.2.29"
+  },
+  "overrides": {
+    "jiti": "^1.21.7"
   }
 }

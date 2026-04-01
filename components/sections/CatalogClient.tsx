@@ -307,7 +307,7 @@ function EmptyState({ onClear, t }: { onClear: () => void; t: any }) {
       <p className="text-steel-500 text-sm mb-6">{t('catalog.noEquipmentBody')}</p>
       <button
         onClick={onClear}
-        className="inline-flex items-center gap-2 bg-ws-red hover:bg-ws-red-light text-white font-display font-semibold text-sm px-6 py-3 rounded-lg transition-colors"
+        className="inline-flex items-center gap-2 bg-ws-red hover:bg-ws-red-dark text-white font-display font-semibold text-sm px-5 py-2.5 rounded-lg transition"
       >
         {t('catalog.clearAllFilters')}
       </button>

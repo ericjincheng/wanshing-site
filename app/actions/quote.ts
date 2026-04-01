@@ -95,7 +95,7 @@ export async function submitQuoteForm(
     console.error('[quote] Resend error:', err)
     return {
       status: 'error',
-      message: 'Something went wrong sending your inquiry. Please try calling us at +1 (604) 229-2988 or emailing sales@wanshing.com directly.',
+      message: 'Something went wrong sending your inquiry. Please try calling us at +1 (604) 229-2988.',
     }
   }
 }

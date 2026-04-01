@@ -157,10 +157,12 @@ export async function getFilteredEquipment(
  */
 export async function getEquipmentCountByCategory(): Promise<Record<string, number>> {
   const results = await sanityClient.fetch<Array<{ category: string; count: number }>>(
-    `array::unique(*[_type == "equipment"].category) {
-      "category": @,
-      "count": count(*[_type == "equipment" && category == ^])
+    `*[_type == "equipment"] | order(_createdAt desc) {
+      "category": category
     }`
   )
-  return Object.fromEntries(results.map((r) => [r.category, r.count]))
+  return results.reduce<Record<string, number>>((acc, r) => {
+    acc[r.category] = (acc[r.category] ?? 0) + 1
+    return acc
+  }, {})
 }

@@ -202,8 +202,9 @@ export function customerConfirmEmail(data: QuoteFormData): { subject: string; ht
 
     <div style="border-top:1px solid ${BORDER};padding-top:20px;">
       <p style="margin:0;font-size:13px;color:${MUTED};line-height:1.6;">
-        <strong style="color:${TEXT};">Business Hours:</strong> Mon–Sat, 8:00 AM – 6:00 PM PST<br>
-        Serving Canada and the United States &nbsp;·&nbsp; Authorized Zoomlion Dealer
+        <strong style="color:${TEXT};">Business Hours:</strong> Mon – Sat: 8:00 AM – 6:00 PM (PST)
+        <br>
+        Questions? Email <a href="mailto:sales@wanshing.com" style="color:${RED};text-decoration:none;">sales@wanshing.com</a>
       </p>
     </div>
   `
