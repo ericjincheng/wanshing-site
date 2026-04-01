@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npm run build",
+  "buildCommand": "npm install jiti@1.21.7 --no-save && npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install --force",
   "regions": ["iad1"]
