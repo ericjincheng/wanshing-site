@@ -1,0 +1,212 @@
+{
+  "topBar": {
+    "hours": "周一至周六：上午8:00 – 下午6:00（太平洋时间）",
+    "serving": "服务加拿大及美国全境"
+  },
+  "header": {
+    "nav": {
+      "equipment": "设备",
+      "rental": "租赁",
+      "partsService": "零件与服务",
+      "about": "关于我们",
+      "dealer": "成为经销商"
+    },
+    "requestQuote": "申请报价",
+    "toggleMenu": "切换菜单"
+  },
+  "hero": {
+    "badge": "深受北美工业用户信赖",
+    "h1Line1": "全球触达。",
+    "h1Accent": "精密",
+    "h1Line2": "机械。",
+    "h1Line3": "您的设备合作伙伴。",
+    "body": "从温哥华的仓库到美国各大物流中心——我们以您的业务所需的服务标准，提供优质叉车、物料搬运系统和正品配件。",
+    "browseCatalog": "浏览目录",
+    "contactSales": "联系销售",
+    "trust1": "30余年行业经验",
+    "trust2": "中联重科授权经销商",
+    "trust3": "加拿大全境配送",
+    "googleReviews": "Google 评分",
+    "established": "成立于1995年"
+  },
+  "quickSearch": {
+    "title": "查找设备",
+    "categoryLabel": "类别",
+    "brandLabel": "品牌 / 型号",
+    "capacityLabel": "载重能力",
+    "searchBtn": "搜索设备"
+  },
+  "categories": {
+    "all": "全部类别",
+    "forklift": "叉车",
+    "reachTruck": "前移式叉车",
+    "palletJack": "托盘车",
+    "scissorLift": "剪叉式升降台",
+    "boomLift": "臂式高空作业车",
+    "electricStacker": "电动堆垛车"
+  },
+  "brands": {
+    "all": "全部品牌",
+    "wsForklifts": "WS 叉车",
+    "zoomlion": "中联重科",
+    "jac": "JAC",
+    "toyota": "丰田",
+    "mitsubishi": "三菱",
+    "komatsu": "小松"
+  },
+  "capacity": {
+    "any": "不限载重",
+    "upTo3000": "3,000 磅以内",
+    "3000to5000": "3,000 – 5,000 磅",
+    "5000to7000": "5,000 – 7,000 磅",
+    "7000to11000": "7,000 – 11,000 磅",
+    "11000plus": "11,000 磅以上"
+  },
+  "status": {
+    "inStock": "现货",
+    "newArrival": "新品到货",
+    "bestSeller": "热销款",
+    "comingSoon": "即将到货"
+  },
+  "fuel": {
+    "lpg": "液化气",
+    "electric": "电动",
+    "diesel": "柴油",
+    "gasoline": "汽油",
+    "hybrid": "混合动力"
+  },
+  "equipmentGrid": {
+    "eyebrow": "产品目录",
+    "heading": "满足各类作业需求的",
+    "headingAccent": "专业设备",
+    "body": "探索我们全系列新品、二手及认证翻新机械——来自全球最受信赖的制造商。",
+    "allEquipment": "全部设备",
+    "viewInventory": "查看完整库存",
+    "inquireNow": "立即询价"
+  },
+  "trust": {
+    "stat1Label": "年行业经验",
+    "stat2Label": "仓库（BC 及 AB 省）",
+    "stat3Label": "台已交付设备",
+    "stat4Label": "Google 评分",
+    "eyebrow": "为什么选择万兴机械",
+    "heading": "为每一笔交易注入",
+    "headingAccent": "工程可靠性",
+    "body": "三十余年来，万兴机械一直将优质设备与高要求的作业环境相连接——从温哥华和埃德蒙顿的配送中心到美国各地的仓库。作为中联重科授权经销商，我们不仅销售机械，更以透明定价、严格质检和加拿大全境配送为基础，建立长期合作关系。",
+    "learnStory": "了解我们的故事",
+    "becomeDealer": "成为经销商",
+    "certified": {
+      "title": "认证与安全检测",
+      "body": "每台设备在交付前均经过全面检查、保养和安全验证，毫无例外。"
+    },
+    "delivery": {
+      "title": "加拿大全境配送",
+      "body": "从我们的温哥华和埃德蒙顿仓库快速配送至加拿大各大城市及美国。"
+    },
+    "pricing": {
+      "title": "透明定价",
+      "body": "无隐藏费用。所有销售、租赁及中联重科新品均提供直接报价。"
+    },
+    "support": {
+      "title": "双语支持团队",
+      "body": "英语和普通话双语技术人员。持续提供零件、维修和技术支持。"
+    }
+  },
+  "services": {
+    "eyebrow": "全周期支持",
+    "heading": "售后无忧，让您的业务",
+    "headingAccent": "持续运转",
+    "maintenance": {
+      "title": "维护与保养",
+      "body": "由认证机械师提供定期服务计划。叉车维修、预防性保养和安全检查，最大程度减少停机时间。",
+      "cta": "了解详情"
+    },
+    "parts": {
+      "title": "零件与配件",
+      "body": "叉车货叉、延伸臂、液化气罐、电池及各大品牌机型的替换零件，现货充足，随时发货。",
+      "cta": "浏览零件"
+    },
+    "financing": {
+      "title": "灵活融资方案",
+      "body": "提供符合您预算的租赁、融资计划和租赁选项。无论购买新机还是租赁二手设备，我们都能为各类业务提供可及的解决方案。",
+      "cta": "获取详情"
+    }
+  },
+  "quote": {
+    "heading": "准备好装备您的业务了吗？",
+    "body": "告诉我们您的需求——我们的团队将在24小时内提供包含定价、库存和交货时间的详细方案。",
+    "namePlaceholder": "姓名 *",
+    "emailPlaceholder": "电子邮件 *",
+    "companyPlaceholder": "公司名称",
+    "interestPlaceholder": "设备类型 *",
+    "messagePlaceholder": "请告诉我们更多——型号、数量、时间要求、预算...",
+    "interestNewForklifts": "新叉车（WS / 中联重科 / JAC）",
+    "interestUsedForklifts": "二手叉车",
+    "interestReachTrucks": "前移式叉车",
+    "interestPalletJacks": "托盘车",
+    "interestScissorBoom": "剪叉 / 臂式高空作业车",
+    "interestParts": "零件与配件",
+    "interestService": "维护与保养服务",
+    "interestRental": "租赁",
+    "submitIdle": "提交询价 — 24小时内回复",
+    "submitPending": "正在发送询价…",
+    "successHeading": "询价已发送！",
+    "browseMore": "继续浏览设备",
+    "callNow": "📞 立即致电"
+  },
+  "footer": {
+    "tagline": "优质叉车与物料搬运设备供应商。中联重科授权经销商，服务加拿大及美国。",
+    "equipmentCol": "设备",
+    "servicesCol": "服务",
+    "contactCol": "联系我们",
+    "equipmentItems": {
+      "forklifts": "叉车",
+      "reachTrucks": "前移式叉车",
+      "palletJacks": "托盘车",
+      "scissorLifts": "剪叉式升降台",
+      "boomLifts": "臂式高空作业车"
+    },
+    "serviceItems": {
+      "maintenance": "维护与保养",
+      "parts": "零件与配件",
+      "financing": "融资与租赁",
+      "rental": "租赁项目",
+      "dealer": "经销商项目"
+    },
+    "hours": "周一至周六：上午8:00 – 下午6:00（太平洋时间）",
+    "rights": "保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "使用条款"
+  },
+  "catalog": {
+    "eyebrow": "完整库存",
+    "heading": "设备目录",
+    "body": "新品、二手及认证翻新叉车、前移式叉车、托盘车、剪叉式升降台等——来自全球最受信赖的制造商。",
+    "filterBy": "筛选条件",
+    "clearAll": "清除全部",
+    "categoryFilter": "类别",
+    "brandFilter": "品牌 / 型号",
+    "capacityFilter": "载重能力",
+    "filtering": "筛选中…",
+    "itemsFound": "{count, plural, =1 {找到 1 件设备} other {找到 # 件设备}}",
+    "noEquipmentHeading": "未找到设备",
+    "noEquipmentBody": "请调整筛选条件，或浏览全部目录。",
+    "clearAllFilters": "清除全部筛选",
+    "viewDetails": "查看详情",
+    "capacityLabel": "{value} 磅载重"
+  },
+  "detail": {
+    "home": "首页",
+    "equipment": "设备",
+    "specifications": "规格参数",
+    "capacityBadge": "{value} 磅载重",
+    "requestQuote": "为此设备申请报价",
+    "callPhone": "致电 +1 (604) 229-2988"
+  },
+  "notFound": {
+    "heading": "页面未找到",
+    "body": "您查找的页面已移动或不存在。让我们帮您找到正确的路径。",
+    "goHome": "返回首页",
+    "browseEquipment": "浏览设备"
+  }
+}

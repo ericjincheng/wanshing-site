@@ -1,0 +1,212 @@
+{
+  "topBar": {
+    "hours": "Mon–Sat: 8:00 AM – 6:00 PM (PST)",
+    "serving": "Serving Canada & the United States"
+  },
+  "header": {
+    "nav": {
+      "equipment": "Equipment",
+      "rental": "Rental",
+      "partsService": "Parts & Service",
+      "about": "About Us",
+      "dealer": "Become a Dealer"
+    },
+    "requestQuote": "Request a Quote",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "badge": "Trusted by Operators Across North America",
+    "h1Line1": "Global Reach.",
+    "h1Accent": "Precision",
+    "h1Line2": "Machinery.",
+    "h1Line3": "Your Equipment Partner.",
+    "body": "From warehouses in Vancouver to logistics hubs across the U.S. — we deliver premium forklifts, material handling systems, and genuine parts with the service standards your operation demands.",
+    "browseCatalog": "Browse Catalog",
+    "contactSales": "Contact Sales",
+    "trust1": "30+ Years Experience",
+    "trust2": "Authorized Zoomlion Dealer",
+    "trust3": "Canada-Wide Delivery",
+    "googleReviews": "Google Reviews",
+    "established": "Est. 1995"
+  },
+  "quickSearch": {
+    "title": "Find Your Equipment",
+    "categoryLabel": "Category",
+    "brandLabel": "Make / Brand",
+    "capacityLabel": "Load Capacity",
+    "searchBtn": "Search Equipment"
+  },
+  "categories": {
+    "all": "All Categories",
+    "forklift": "Forklifts",
+    "reachTruck": "Reach Trucks",
+    "palletJack": "Pallet Jacks",
+    "scissorLift": "Scissor Lifts",
+    "boomLift": "Boom Lifts",
+    "electricStacker": "Electric Stackers"
+  },
+  "brands": {
+    "all": "All Brands",
+    "wsForklifts": "WS Forklifts",
+    "zoomlion": "Zoomlion",
+    "jac": "JAC",
+    "toyota": "Toyota",
+    "mitsubishi": "Mitsubishi",
+    "komatsu": "Komatsu"
+  },
+  "capacity": {
+    "any": "Any Capacity",
+    "upTo3000": "Up to 3,000 lbs",
+    "3000to5000": "3,000 – 5,000 lbs",
+    "5000to7000": "5,000 – 7,000 lbs",
+    "7000to11000": "7,000 – 11,000 lbs",
+    "11000plus": "11,000+ lbs"
+  },
+  "status": {
+    "inStock": "In Stock",
+    "newArrival": "New Arrival",
+    "bestSeller": "Best Seller",
+    "comingSoon": "Coming Soon"
+  },
+  "fuel": {
+    "lpg": "LPG",
+    "electric": "Electric",
+    "diesel": "Diesel",
+    "gasoline": "Gasoline",
+    "hybrid": "Hybrid"
+  },
+  "equipmentGrid": {
+    "eyebrow": "Our Catalog",
+    "heading": "Equipment Built for Every",
+    "headingAccent": "Operation",
+    "body": "Explore our full inventory of new, used, and certified pre-owned machinery — sourced from the world's most trusted manufacturers.",
+    "allEquipment": "All Equipment",
+    "viewInventory": "View Full Inventory",
+    "inquireNow": "Inquire Now"
+  },
+  "trust": {
+    "stat1Label": "Years in Business",
+    "stat2Label": "Warehouses (BC & AB)",
+    "stat3Label": "Units Delivered",
+    "stat4Label": "Google Review Rating",
+    "eyebrow": "Why Businesses Choose WanShing",
+    "heading": "Engineering Reliability Into Every",
+    "headingAccent": "Transaction",
+    "body": "For over three decades, WanShing Machinery has connected quality equipment with demanding operations — from distribution centers in Vancouver and Edmonton to warehouses across the United States. As an authorized Zoomlion dealer and manufacturer partner, we don't just sell machinery. We build partnerships anchored in transparent pricing, rigorous quality inspections, and Canada-wide delivery that works.",
+    "learnStory": "Learn Our Story",
+    "becomeDealer": "Become a Dealer",
+    "certified": {
+      "title": "Certified & Safety-Tested",
+      "body": "Every unit is fully inspected, serviced, and safety-checked before delivery. No exceptions."
+    },
+    "delivery": {
+      "title": "Canada-Wide Delivery",
+      "body": "Fast delivery from our Vancouver and Edmonton warehouses to all major Canadian cities and the US."
+    },
+    "pricing": {
+      "title": "Transparent Pricing",
+      "body": "No hidden fees. Straightforward quotes on all sales, rentals, and new Zoomlion equipment."
+    },
+    "support": {
+      "title": "Bilingual Support Team",
+      "body": "English and Mandarin speaking technicians. Ongoing parts, repairs, and technical support."
+    }
+  },
+  "services": {
+    "eyebrow": "Full-Cycle Support",
+    "heading": "Beyond the Sale: We Keep You",
+    "headingAccent": "Running",
+    "maintenance": {
+      "title": "Service & Maintenance",
+      "body": "Scheduled service programs backed by certified mechanics. Forklift repair, preventive maintenance, and safety inspections that minimize downtime.",
+      "cta": "Learn more"
+    },
+    "parts": {
+      "title": "Parts & Components",
+      "body": "Forklift forks, extensions, LPG tanks, batteries, and replacement parts for all major makes and models. In-stock and ready to ship.",
+      "cta": "Browse parts"
+    },
+    "financing": {
+      "title": "Flexible Financing",
+      "body": "Leasing, financing plans, and rental options that fit your budget. Whether buying new or leasing used, we make equipment accessible for every operation.",
+      "cta": "Get details"
+    }
+  },
+  "quote": {
+    "heading": "Ready to Equip Your Operation?",
+    "body": "Tell us what you need — our team will deliver a detailed proposal with pricing, availability, and delivery timeline within 24 hours.",
+    "namePlaceholder": "Full Name *",
+    "emailPlaceholder": "Email Address *",
+    "companyPlaceholder": "Company Name",
+    "interestPlaceholder": "Equipment Interest *",
+    "messagePlaceholder": "Tell us more — model, quantity, timeline, budget...",
+    "interestNewForklifts": "New Forklifts (WS / Zoomlion / JAC)",
+    "interestUsedForklifts": "Used Forklifts",
+    "interestReachTrucks": "Reach Trucks",
+    "interestPalletJacks": "Pallet Jacks",
+    "interestScissorBoom": "Scissor / Boom Lifts",
+    "interestParts": "Parts & Accessories",
+    "interestService": "Service & Maintenance",
+    "interestRental": "Rental",
+    "submitIdle": "Submit Inquiry — Response Within 24 Hours",
+    "submitPending": "Sending Your Inquiry…",
+    "successHeading": "Inquiry Sent!",
+    "browseMore": "Browse More Equipment",
+    "callNow": "📞 Call Us Now"
+  },
+  "footer": {
+    "tagline": "Premier forklifts and material handling equipment. Authorized Zoomlion dealer serving Canada & the United States.",
+    "equipmentCol": "Equipment",
+    "servicesCol": "Services",
+    "contactCol": "Contact",
+    "equipmentItems": {
+      "forklifts": "Forklifts",
+      "reachTrucks": "Reach Trucks",
+      "palletJacks": "Pallet Jacks",
+      "scissorLifts": "Scissor Lifts",
+      "boomLifts": "Boom Lifts"
+    },
+    "serviceItems": {
+      "maintenance": "Service & Maintenance",
+      "parts": "Parts & Components",
+      "financing": "Financing & Leasing",
+      "rental": "Rental Program",
+      "dealer": "Dealer Program"
+    },
+    "hours": "Mon–Sat: 8:00 AM – 6:00 PM PST",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "catalog": {
+    "eyebrow": "Full Inventory",
+    "heading": "Equipment Catalog",
+    "body": "New, used, and certified pre-owned forklifts, reach trucks, pallet jacks, scissor lifts, and more — sourced from the world's most trusted manufacturers.",
+    "filterBy": "Filter By",
+    "clearAll": "Clear all",
+    "categoryFilter": "Category",
+    "brandFilter": "Brand / Make",
+    "capacityFilter": "Load Capacity",
+    "filtering": "Filtering…",
+    "itemsFound": "{count, plural, =1 {1 item found} other {# items found}}",
+    "noEquipmentHeading": "No equipment found",
+    "noEquipmentBody": "Try adjusting your filters, or browse the full catalog.",
+    "clearAllFilters": "Clear All Filters",
+    "viewDetails": "View Details",
+    "capacityLabel": "{value} lb capacity"
+  },
+  "detail": {
+    "home": "Home",
+    "equipment": "Equipment",
+    "specifications": "Specifications",
+    "capacityBadge": "{value} lb Capacity",
+    "requestQuote": "Request a Quote for This Unit",
+    "callPhone": "Call +1 (604) 229-2988"
+  },
+  "notFound": {
+    "heading": "Page Not Found",
+    "body": "The page you're looking for has moved or doesn't exist. Let's get you back on track.",
+    "goHome": "Go Home",
+    "browseEquipment": "Browse Equipment"
+  }
+}
