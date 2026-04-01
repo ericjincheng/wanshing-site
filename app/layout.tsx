@@ -6,7 +6,28 @@
  */
 import type { Metadata } from 'next'
 import { getLocale } from 'next-intl/server'
+import { DM_Sans, Space_Grotesk, Instrument_Serif } from 'next/font/google'
 import './globals.css'
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  variable: '--font-body',
+  display: 'swap',
+})
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-display',
+  display: 'swap',
+})
+
+const instrumentSerif = Instrument_Serif({
+  weight: ['400'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-accent',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: {
@@ -51,11 +72,7 @@ export default async function RootLayout({
   const locale = await getLocale()
 
   return (
-    <html lang={locale}>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      </head>
+    <html lang={locale} className={`${dmSans.variable} ${spaceGrotesk.variable} ${instrumentSerif.variable}`}>
       <body className="font-body antialiased">
         {children}
       </body>

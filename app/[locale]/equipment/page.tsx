@@ -1,3 +1,5 @@
+export const revalidate = 3600 // ISR: rebuild at most every hour
+
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import TopBar from '@/components/layout/TopBar'

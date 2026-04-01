@@ -3,6 +3,8 @@
  * Sections are built as isolated components and composed here.
  * Equipment data is fetched server-side from Sanity.
  */
+export const revalidate = 3600 // ISR: rebuild at most every hour
+
 import { getFeaturedEquipment } from '@/lib/sanity.queries'
 import TopBar          from '@/components/layout/TopBar'
 import Header          from '@/components/layout/Header'

@@ -34,9 +34,9 @@ const config = {
 
       // ─── Typography ───────────────────────────────────────────────
       fontFamily: {
-        display: ['"Space Grotesk"', 'sans-serif'],
-        body:    ['"DM Sans"', 'sans-serif'],
-        accent:  ['"Instrument Serif"', 'serif'],
+        display: ['var(--font-display)', 'sans-serif'],
+        body:    ['var(--font-body)', 'sans-serif'],
+        accent:  ['var(--font-accent)', 'serif'],
       },
 
       // ─── Animations ───────────────────────────────────────────────
