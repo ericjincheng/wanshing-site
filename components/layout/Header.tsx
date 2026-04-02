@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useTranslations, useLocale } from 'next-intl'
 import { useRouter, usePathname } from '@/lib/navigation'
@@ -37,7 +38,7 @@ export default function Header() {
   return (
     <header
       id="mainHeader"
-      className={`sticky top-0 z-50 bg-steel-900 transition-all duration-300 ${
+      className={`sticky top-0 z-50 bg-white border-b border-steel-200 transition-all duration-300 ${
         scrolled ? 'header-scrolled' : ''
       }`}
     >
@@ -45,12 +46,17 @@ export default function Header() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-lg bg-ws-red flex items-center justify-center shadow-lg shadow-ws-red/20 group-hover:shadow-ws-red/40 transition-shadow">
-            <span className="font-display font-bold text-white text-lg">W</span>
-          </div>
+          <Image
+            src="/ws-logo.jpg"
+            alt="WanShing Machinery Logo"
+            width={52}
+            height={52}
+            className="object-contain rounded-full"
+            priority
+          />
           <div className="leading-tight">
-            <span className="font-display font-bold text-white text-lg tracking-tight">WanShing</span>
-            <span className="block text-[10px] text-steel-400 font-medium tracking-[0.2em] uppercase">Machinery</span>
+            <span className="font-display font-bold text-steel-900 text-lg tracking-tight">WanShing</span>
+            <span className="block text-[10px] text-steel-500 font-medium tracking-[0.2em] uppercase">Machinery</span>
           </div>
         </Link>
 
@@ -60,7 +66,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="nav-link text-steel-200 hover:text-white px-4 py-2 text-sm font-medium transition-colors"
+              className="nav-link text-steel-900 hover:text-steel-600 px-4 py-2 text-sm font-medium transition-colors"
             >
               {t(link.labelKey as any)}
             </Link>
@@ -70,13 +76,13 @@ export default function Header() {
         {/* Actions */}
         <div className="flex items-center gap-3">
           {/* Language Toggle */}
-          <div className="lang-toggle hidden md:flex items-center bg-steel-800 rounded-lg p-0.5 text-xs">
+          <div className="lang-toggle hidden md:flex items-center bg-steel-100 border border-steel-200 rounded-lg p-0.5 text-xs">
             {(['en', 'zh'] as const).map((lang) => (
               <button
                 key={lang}
                 onClick={() => switchLocale(lang)}
                 className={`lang-option px-2.5 py-1.5 rounded-md transition-all ${
-                  activeLang === lang ? 'active' : 'text-steel-400'
+                  activeLang === lang ? 'active' : 'text-steel-500'
                 }`}
               >
                 {lang === 'en' ? 'EN' : '中文'}
@@ -97,7 +103,7 @@ export default function Header() {
 
           {/* Mobile Menu Toggle */}
           <button
-            className="lg:hidden text-white p-2"
+            className="lg:hidden text-steel-900 p-2"
             onClick={() => setMobileOpen((v) => !v)}
             aria-label={t('toggleMenu')}
           >
@@ -113,7 +119,7 @@ export default function Header() {
 
       {/* Mobile Menu Drawer */}
       <div
-        className={`lg:hidden bg-steel-800 border-t border-steel-700 overflow-hidden transition-all duration-300 ${
+        className={`lg:hidden bg-white border-t border-steel-200 overflow-hidden transition-all duration-300 ${
           mobileOpen ? 'max-h-[400px]' : 'max-h-0'
         }`}
       >
@@ -123,19 +129,19 @@ export default function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setMobileOpen(false)}
-              className="text-steel-200 hover:text-white py-2.5 text-sm font-medium border-b border-steel-700"
+              className="text-steel-900 hover:text-steel-600 py-2.5 text-sm font-medium border-b border-steel-200"
             >
               {t(link.labelKey as any)}
             </Link>
           ))}
           <div className="flex items-center gap-2 pt-3">
-            <div className="lang-toggle flex items-center bg-steel-700 rounded-lg p-0.5 text-xs">
+            <div className="lang-toggle flex items-center bg-steel-100 border border-steel-200 rounded-lg p-0.5 text-xs">
               {(['en', 'zh'] as const).map((lang) => (
                 <button
                   key={lang}
                   onClick={() => switchLocale(lang)}
                   className={`lang-option px-2.5 py-1.5 rounded-md transition-all ${
-                    activeLang === lang ? 'active' : 'text-steel-400'
+                    activeLang === lang ? 'active' : 'text-steel-500'
                   }`}
                 >
                   {lang === 'en' ? 'EN' : '中文'}
