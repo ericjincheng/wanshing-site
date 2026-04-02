@@ -22,6 +22,21 @@ const VALUES = [
   { icon: '⚡', title: 'Efficiency', body: 'Every solution we deliver is designed to maximize your uptime and minimize your costs.' },
 ]
 
+// Partner logos — duplicated for seamless marquee loop
+const CAROUSEL_LOGOS = [
+  { src: '/carousel/cbsa.png',           alt: 'Canada Border Services Agency' },
+  { src: '/carousel/chrysler.png',        alt: 'Chrysler' },
+  { src: '/carousel/kins-farm-market.png',alt: "Kin's Farm Market" },
+  { src: '/carousel/acrocargo.png',       alt: 'Acrocargo Express' },
+  { src: '/carousel/aerostream.png',      alt: 'Aerostream' },
+  { src: '/carousel/dnd.png',             alt: 'Department of National Defence' },
+  { src: '/carousel/fps.png',             alt: 'FPS' },
+  { src: '/carousel/herbaland.png',       alt: 'Herbaland' },
+  { src: '/carousel/no1-collision.png',   alt: 'No.1 Collision' },
+  { src: '/carousel/juice-truck.png',     alt: 'The Juice Truck' },
+  { src: '/carousel/ubc.png',             alt: 'University of British Columbia' },
+]
+
 export default async function AboutPage({ params: { locale } }: Props) {
   setRequestLocale(locale)
 
@@ -236,8 +251,24 @@ export default async function AboutPage({ params: { locale } }: Props) {
             </div>
 
             {/* ── Partner Logo Carousel ────────────────────────────────── */}
-            {/* Add partner logo images to public/carousel/ and list them below */}
-            {/* TODO: Populate CAROUSEL_LOGOS array when partner images are provided */}
+            <div className="mt-14">
+              <p className="font-display font-semibold text-steel-500 text-xs uppercase tracking-widest mb-8 text-center">
+                Trusted by Leading Organizations
+              </p>
+              <div className="relative overflow-hidden">
+                {/* Fade edges */}
+                <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+                <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+                {/* Scrolling track — duplicated for seamless loop */}
+                <div className="flex animate-marquee gap-12 w-max">
+                  {[...CAROUSEL_LOGOS, ...CAROUSEL_LOGOS].map((logo, i) => (
+                    <div key={i} className="flex-shrink-0 h-14 w-36 relative grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100">
+                      <Image src={logo.src} alt={logo.alt} fill className="object-contain" />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
