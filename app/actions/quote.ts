@@ -63,7 +63,7 @@ export async function submitQuoteForm(
 
   const resend = new Resend(apiKey)
 
-  const FROM_NAME    = 'WanShing Machinery'
+  const FROM_NAME    = 'Wanshing Machinery'
   const FROM_ADDRESS = process.env.RESEND_FROM_ADDRESS ?? 'noreply@wanshing.com'
   const SALES_EMAIL  = process.env.SALES_EMAIL         ?? 'sales@wanshing.com'
 

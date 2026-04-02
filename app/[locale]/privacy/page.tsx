@@ -17,7 +17,7 @@ export default async function PrivacyPage({ params: { locale } }: Props) {
         <h1 className="text-4xl font-bold text-steel-900 mb-8">Privacy Policy</h1>
         <div className="space-y-4 text-steel-700">
           <p>
-            WanShing Machinery (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) respects your privacy. This policy explains how we collect,
+            Wanshing Machinery (&quot;we&quot;, &quot;our&quot;, &quot;us&quot;) respects your privacy. This policy explains how we collect,
             use, and protect your personal information when you use our website.
           </p>
           <h2 className="text-2xl font-semibold text-steel-900 mt-8">Information We Collect</h2>

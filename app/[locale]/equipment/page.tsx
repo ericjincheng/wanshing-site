@@ -13,7 +13,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Equipment Catalog',
     description:
-      "Browse WanShing Machinery's full inventory of new, used, and certified pre-owned forklifts, reach trucks, pallet jacks, scissor lifts, and more.",
+      "Browse Wanshing Machinery's full inventory of new, used, and certified pre-owned forklifts, reach trucks, pallet jacks, scissor lifts, and more.",
   }
 }
 

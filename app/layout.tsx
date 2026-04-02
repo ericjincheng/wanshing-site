@@ -31,18 +31,18 @@ const instrumentSerif = Instrument_Serif({
 
 export const metadata: Metadata = {
   title: {
-    default: 'WanShing Machinery | Global Reach. Precision Machinery.',
-    template: '%s | WanShing Machinery',
+    default: 'Wanshing Machinery | Global Reach. Precision Machinery.',
+    template: '%s | Wanshing Machinery',
   },
   description:
-    'WanShing Machinery — your trusted global partner for premium forklifts, material handling equipment, parts, and service. Authorized Zoomlion dealer. Request a quote today.',
+    'Wanshing Machinery — your trusted global partner for premium forklifts, material handling equipment, parts, and service. Authorized Zoomlion dealer. Request a quote today.',
   keywords: [
     'forklifts',
     'material handling equipment',
     'Zoomlion dealer',
     'forklift rental',
     'forklift parts',
-    'WanShing Machinery',
+    'Wanshing Machinery',
     'Vancouver forklift',
     'Canada forklift',
   ],
@@ -50,14 +50,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_CA',
     url: 'https://wanshing.com',
-    siteName: 'WanShing Machinery',
-    title: 'WanShing Machinery | Global Reach. Precision Machinery.',
+    siteName: 'Wanshing Machinery',
+    title: 'Wanshing Machinery | Global Reach. Precision Machinery.',
     description:
       'Premium forklifts, material handling systems, and genuine parts with the service standards your operation demands.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WanShing Machinery | Global Reach. Precision Machinery.',
+    title: 'Wanshing Machinery | Global Reach. Precision Machinery.',
     description:
       'Premium forklifts, material handling systems, and genuine parts with the service standards your operation demands.',
   },

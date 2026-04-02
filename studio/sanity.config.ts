@@ -5,7 +5,7 @@ import { schemaTypes } from './schemas'
 
 export default defineConfig({
   name: 'wanshing-studio',
-  title: 'WanShing Machinery',
+  title: 'Wanshing Machinery',
   projectId: '7rppd6fc',
   dataset: 'production',
 

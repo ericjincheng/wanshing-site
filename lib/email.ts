@@ -1,5 +1,5 @@
 /**
- * Email templates — WanShing Machinery
+ * Email templates — Wanshing Machinery
  *
  * Two templates:
  *  1. internalInquiryEmail  → sent to sales@wanshing.com when a quote is submitted
@@ -32,7 +32,7 @@ const base = (content: string) => `
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WanShing Machinery</title>
+  <title>Wanshing Machinery</title>
 </head>
 <body style="margin:0;padding:0;background:${BODY};font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:${TEXT};">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:${BODY};padding:32px 16px;">
@@ -52,7 +52,7 @@ const base = (content: string) => `
                           <span style="font-family:'Helvetica Neue',sans-serif;font-weight:700;color:${WHITE};font-size:20px;line-height:40px;">W</span>
                         </td>
                         <td style="padding-left:12px;">
-                          <div style="font-weight:700;color:${WHITE};font-size:18px;letter-spacing:-0.3px;">WanShing</div>
+                          <div style="font-weight:700;color:${WHITE};font-size:18px;letter-spacing:-0.3px;">Wanshing</div>
                           <div style="color:#94A3B8;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;">Machinery</div>
                         </td>
                       </tr>
@@ -74,7 +74,7 @@ const base = (content: string) => `
           <tr>
             <td style="background:${BODY};border:1px solid ${BORDER};border-top:none;border-radius:0 0 12px 12px;padding:20px 36px;text-align:center;">
               <p style="margin:0;font-size:12px;color:${MUTED};">
-                WanShing Machinery &nbsp;·&nbsp; Vancouver & Edmonton
+                Wanshing Machinery &nbsp;·&nbsp; Vancouver & Edmonton
                 <br>
                 <a href="mailto:sales@wanshing.com" style="color:${RED};text-decoration:none;">sales@wanshing.com</a>
                 &nbsp;·&nbsp;
@@ -135,7 +135,7 @@ export function internalInquiryEmail(data: QuoteFormData): { subject: string; ht
     <table width="100%" cellpadding="0" cellspacing="0">
       <tr>
         <td>
-          <a href="mailto:${data.email}?subject=Re: Your WanShing Machinery Inquiry"
+          <a href="mailto:${data.email}?subject=Re: Your Wanshing Machinery Inquiry"
              style="display:inline-block;background:${RED};color:${WHITE};font-size:14px;font-weight:600;padding:12px 24px;border-radius:8px;text-decoration:none;">
             Reply to ${data.name.split(' ')[0]}
           </a>
@@ -149,7 +149,7 @@ export function internalInquiryEmail(data: QuoteFormData): { subject: string; ht
 
 // ─── 2. Customer confirmation email → customer ────────────────────────────────
 export function customerConfirmEmail(data: QuoteFormData): { subject: string; html: string } {
-  const subject = `We received your inquiry — WanShing Machinery`
+  const subject = `We received your inquiry — Wanshing Machinery`
 
   const content = `
     <h1 style="margin:0 0 12px;font-size:22px;font-weight:700;color:${TEXT};">
