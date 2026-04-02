@@ -479,8 +479,9 @@ git diff HEAD            # What changed
 | 2026-04-01 | `ba03be02` | Fix: jiti pinning, next/font migration, remove legacy files, ISR revalidate | Claude Code |
 | 2026-04-02 | — | `PROJECT_BRAIN.md` created (no code change) | Claude Code |
 | 2026-04-02 | `5a5e0c5c` | feat: white header, WS logo, steel-900 nav text | Claude Code |
+| 2026-04-02 | `2d8e1a17` | fix: header-scrolled reverts to dark navy — updated to white rgba | Claude Code |
 
 ---
 
-*Last updated: 2026-04-02 by Claude Code — Header redesign: white bg, real WS logo, steel-900 nav.*
+*Last updated: 2026-04-02 by Claude Code — Header scroll fix; project-shzcf deleted from Vercel.*
 *Next update required after: any successful deployment or schema change.*
