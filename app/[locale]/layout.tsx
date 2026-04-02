@@ -1,11 +1,11 @@
-/**
- * Locale layout — validates the [locale] param and provides
- * NextIntlClientProvider so all client components can call useTranslations().
- */
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages } from 'next-intl/server'
+import { getMessages, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { locales } from '@/i18n/config'
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
 
 interface Props {
   children: React.ReactNode
@@ -13,12 +13,10 @@ interface Props {
 }
 
 export default async function LocaleLayout({ children, params: { locale } }: Props) {
-  // Reject unknown locales — next-intl middleware should prevent this,
-  // but this is an extra safety guard.
   if (!locales.includes(locale as any)) notFound()
 
-  // Load all messages for this locale; NextIntlClientProvider makes them
-  // available to every client component in this subtree.
+  setRequestLocale(locale)
+
   const messages = await getMessages()
 
   return (

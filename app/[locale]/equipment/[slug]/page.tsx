@@ -3,7 +3,7 @@ export const revalidate = 3600 // ISR: rebuild at most every hour
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { getEquipmentBySlug, getAllEquipmentSlugs } from '@/lib/sanity.queries'
 import { urlForImage } from '@/lib/sanity.image'
 import { locales } from '@/i18n/config'
@@ -55,6 +55,7 @@ const STATUS_STYLES: Record<string, string> = {
 }
 
 export default async function EquipmentDetailPage({ params }: Props) {
+  setRequestLocale(params.locale)
   const [item, t, tStatus] = await Promise.all([
     getEquipmentBySlug(params.slug),
     getTranslations('detail'),

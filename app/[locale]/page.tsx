@@ -1,10 +1,6 @@
-/**
- * Home Page — WanShing Machinery
- * Sections are built as isolated components and composed here.
- * Equipment data is fetched server-side from Sanity.
- */
-export const revalidate = 3600 // ISR: rebuild at most every hour
+export const revalidate = 3600
 
+import { setRequestLocale } from 'next-intl/server'
 import { getFeaturedEquipment } from '@/lib/sanity.queries'
 import TopBar          from '@/components/layout/TopBar'
 import Header          from '@/components/layout/Header'
@@ -16,7 +12,13 @@ import ServicesSection from '@/components/sections/ServicesSection'
 import QuoteSection    from '@/components/sections/QuoteSection'
 import Footer          from '@/components/layout/Footer'
 
-export default async function HomePage() {
+interface Props {
+  params: { locale: string }
+}
+
+export default async function HomePage({ params: { locale } }: Props) {
+  setRequestLocale(locale)
+
   const equipment = await getFeaturedEquipment()
 
   return (

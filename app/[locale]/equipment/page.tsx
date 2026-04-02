@@ -2,7 +2,7 @@ export const revalidate = 3600 // ISR: rebuild at most every hour
 
 import { Suspense } from 'react'
 import type { Metadata } from 'next'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import TopBar from '@/components/layout/TopBar'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -18,6 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 interface PageProps {
+  params: { locale: string }
   searchParams: {
     category?: string
     brand?: string
@@ -25,7 +26,8 @@ interface PageProps {
   }
 }
 
-export default async function EquipmentCatalogPage({ searchParams }: PageProps) {
+export default async function EquipmentCatalogPage({ params: { locale }, searchParams }: PageProps) {
+  setRequestLocale(locale)
   const t = await getTranslations('catalog')
 
   const equipment = await getFilteredEquipment({
