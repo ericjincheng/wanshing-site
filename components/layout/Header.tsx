@@ -55,7 +55,7 @@ export default function Header() {
             priority
           />
           <div className="leading-tight">
-            <span className="font-display font-bold text-steel-900 text-lg tracking-tight">WanShing</span>
+            <span className="font-display font-bold text-steel-900 text-lg tracking-tight">Wanshing</span>
             <span className="block text-[10px] text-steel-500 font-medium tracking-[0.2em] uppercase">Machinery</span>
           </div>
         </Link>

@@ -33,7 +33,7 @@ export default async function Footer() {
                 <span className="font-display font-bold text-white text-lg">W</span>
               </div>
               <div className="leading-tight">
-                <span className="font-display font-bold text-white text-lg tracking-tight">WanShing</span>
+                <span className="font-display font-bold text-white text-lg tracking-tight">Wanshing</span>
                 <span className="block text-[10px] text-steel-500 font-medium tracking-[0.2em] uppercase">Machinery</span>
               </div>
             </Link>
@@ -91,7 +91,7 @@ export default async function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-steel-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-steel-600">
-          <span>&copy; {year} WanShing Machinery. {t('rights')}</span>
+          <span>&copy; {year} Wanshing Machinery. {t('rights')}</span>
           <div className="flex items-center gap-5">
             <Link href="/privacy" className="hover:text-steel-400 transition-colors">{t('privacy')}</Link>
             <Link href="/terms" className="hover:text-steel-400 transition-colors">{t('terms')}</Link>

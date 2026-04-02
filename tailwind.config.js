@@ -9,6 +9,7 @@ const config = {
     extend: {
       // ─── Brand Colors ─────────────────────────────────────────────
       colors: {
+        zoomlion: '#b8d23c',
         ws: {
           red:        '#C8102E',
           'red-light': '#E0253F',
