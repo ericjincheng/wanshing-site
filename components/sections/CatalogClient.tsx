@@ -2,9 +2,9 @@
 
 import { useRouter, useSearchParams, usePathname } from 'next/navigation'
 import { useCallback, useTransition } from 'react'
-import Link from 'next/link'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import { Link } from '@/lib/navigation'
 import type { EquipmentListItem } from '@/types/equipment'
 import { urlForImage } from '@/lib/sanity.image'
 

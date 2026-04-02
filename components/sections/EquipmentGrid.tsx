@@ -1,6 +1,6 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
+import { Link } from '@/lib/navigation'
 import type { EquipmentListItem } from '@/types/equipment'
 import { urlForImage } from '@/lib/sanity.image'
 

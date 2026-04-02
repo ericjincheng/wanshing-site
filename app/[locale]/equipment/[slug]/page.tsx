@@ -18,8 +18,13 @@ interface Props {
 
 // Pre-generate static pages for all equipment × all locales at build time
 export async function generateStaticParams() {
-  const slugs = await getAllEquipmentSlugs()
-  return locales.flatMap((locale) => slugs.map((slug) => ({ locale, slug })))
+  try {
+    const slugs = await getAllEquipmentSlugs()
+    return locales.flatMap((locale) => slugs.map((slug) => ({ locale, slug })))
+  } catch {
+    // Sanity unreachable at build time — pages will be generated on first request
+    return []
+  }
 }
 
 // Dynamic SEO metadata per product
@@ -66,9 +71,9 @@ export default async function EquipmentDetailPage({ params }: Props) {
         {/* Breadcrumb */}
         <div className="bg-white border-b border-steel-200">
           <div className="max-w-7xl mx-auto px-6 py-3 flex items-center gap-2 text-sm text-steel-500">
-            <a href="/" className="hover:text-ws-red transition-colors">{t('home')}</a>
+            <a href={`/${params.locale}`} className="hover:text-ws-red transition-colors">{t('home')}</a>
             <span>/</span>
-            <a href="/#equipment" className="hover:text-ws-red transition-colors">{t('equipment')}</a>
+            <a href={`/${params.locale}/equipment`} className="hover:text-ws-red transition-colors">{t('equipment')}</a>
             <span>/</span>
             <span className="text-steel-800 font-medium">{item.title}</span>
           </div>

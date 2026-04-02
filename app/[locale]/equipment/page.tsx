@@ -1,5 +1,6 @@
 export const revalidate = 3600 // ISR: rebuild at most every hour
 
+import { Suspense } from 'react'
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import TopBar from '@/components/layout/TopBar'
@@ -57,14 +58,16 @@ export default async function EquipmentCatalogPage({ searchParams }: PageProps) 
           </div>
         </div>
 
-        <CatalogClient
-          initialEquipment={equipment}
-          activeFilters={{
-            category: searchParams.category ?? '',
-            brand:    searchParams.brand    ?? '',
-            capacity: searchParams.capacity ?? '',
-          }}
-        />
+        <Suspense fallback={<div className="p-12 text-center text-steel-400">Loading catalog…</div>}>
+          <CatalogClient
+            initialEquipment={equipment}
+            activeFilters={{
+              category: searchParams.category ?? '',
+              brand:    searchParams.brand    ?? '',
+              capacity: searchParams.capacity ?? '',
+            }}
+          />
+        </Suspense>
       </main>
       <Footer />
     </>

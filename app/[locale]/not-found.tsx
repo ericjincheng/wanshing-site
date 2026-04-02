@@ -18,7 +18,7 @@ export default function NotFound() {
             href="/"
             className="btn-shine inline-flex items-center justify-center gap-2 bg-ws-red hover:bg-ws-red-light text-white font-display font-semibold px-6 py-3 rounded-lg transition-all"
           >
-            {t('goHome')}
+            {t('backHome')}
           </Link>
           <Link
             href="/equipment"

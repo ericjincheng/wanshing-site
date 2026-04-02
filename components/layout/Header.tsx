@@ -2,25 +2,26 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 import { useRouter, usePathname } from '@/lib/navigation'
 
 export default function Header() {
-  const t = useTranslations('header')
+  const t      = useTranslations('header')
+  const locale = useLocale()
   const router   = useRouter()
   const pathname = usePathname()
 
   const NAV_LINKS = [
     { labelKey: 'nav.equipment',   href: '/#equipment' },
-    { labelKey: 'nav.rental',      href: '/rental' },
-    { labelKey: 'nav.partsService',href: '/parts-service' },
+    { labelKey: 'nav.rental',      href: '#' },
+    { labelKey: 'nav.partsService',href: '#' },
     { labelKey: 'nav.about',       href: '/#about' },
-    { labelKey: 'nav.dealer',      href: '/dealer' },
+    { labelKey: 'nav.dealer',      href: '#' },
   ]
 
   const [scrolled, setScrolled]     = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-  const [activeLang, setActiveLang] = useState<'en' | 'zh'>('en')
+  const [activeLang, setActiveLang] = useState<'en' | 'zh'>(locale as 'en' | 'zh')
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10)

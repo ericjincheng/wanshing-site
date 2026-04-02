@@ -62,11 +62,11 @@ export default async function TrustSection() {
             </h2>
             <p className="text-steel-300 text-lg mt-5 leading-relaxed">{t('body')}</p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="/about" className="btn-shine inline-flex items-center gap-2 bg-ws-red hover:bg-ws-red-light text-white font-display font-semibold text-sm px-6 py-3 rounded-lg transition">
+              <a href="#about" className="btn-shine inline-flex items-center gap-2 bg-ws-red hover:bg-ws-red-light text-white font-display font-semibold text-sm px-6 py-3 rounded-lg transition">
                 {t('learnStory')}
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
               </a>
-              <a href="/dealer" className="inline-flex items-center gap-2 text-steel-300 hover:text-white font-display font-semibold text-sm px-6 py-3 rounded-lg border border-steel-600 hover:border-steel-400 transition">
+              <a href="#" className="inline-flex items-center gap-2 text-steel-300 hover:text-white font-display font-semibold text-sm px-6 py-3 rounded-lg border border-steel-600 hover:border-steel-400 transition">
                 {t('becomeDealer')}
               </a>
             </div>
