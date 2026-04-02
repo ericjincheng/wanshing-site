@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { getTranslations } from 'next-intl/server'
 
 export default async function Footer() {
@@ -29,10 +30,14 @@ export default async function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-ws-red flex items-center justify-center">
-                <span className="font-display font-bold text-white text-lg">W</span>
-              </div>
-              <div className="leading-tight">
+              <Image
+                src="/ws-logo.jpg"
+                alt="WanShing Machinery Logo"
+                width={52}
+                height={52}
+                className="object-contain rounded-full"
+              />
+              <div className="leading-tight text-center">
                 <span className="font-display font-bold text-white text-lg tracking-tight">Wanshing</span>
                 <span className="block text-[10px] text-steel-500 font-medium tracking-[0.2em] uppercase">Machinery</span>
               </div>
