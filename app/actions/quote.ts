@@ -73,7 +73,7 @@ export async function submitQuoteForm(
     await resend.emails.send({
       from:    `${FROM_NAME} <${FROM_ADDRESS}>`,
       to:      [SALES_EMAIL],
-      replyTo: raw.email,
+      reply_to: raw.email,
       subject: internalSubject,
       html:    internalHtml,
     })
