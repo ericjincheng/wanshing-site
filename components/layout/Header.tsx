@@ -12,11 +12,11 @@ export default function Header() {
   const pathname = usePathname()
 
   const NAV_LINKS = [
-    { labelKey: 'nav.equipment',   href: '/#equipment' },
-    { labelKey: 'nav.rental',      href: '#' },
-    { labelKey: 'nav.partsService',href: '#' },
-    { labelKey: 'nav.about',       href: '/#about' },
-    { labelKey: 'nav.dealer',      href: '#' },
+    { labelKey: 'nav.equipment',   href: '/equipment' },
+    { labelKey: 'nav.rental',      href: '/rental' },
+    { labelKey: 'nav.partsService',href: '/parts-service' },
+    { labelKey: 'nav.about',       href: '/about' },
+    { labelKey: 'nav.dealer',      href: '/dealer' },
   ]
 
   const [scrolled, setScrolled]     = useState(false)

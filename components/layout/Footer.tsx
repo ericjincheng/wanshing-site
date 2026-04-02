@@ -46,7 +46,7 @@ export default async function Footer() {
             <ul className="space-y-2.5 text-sm">
               {equipmentLinks.map((item) => (
                 <li key={item.key}>
-                  <Link href="/#equipment" className="hover:text-white transition-colors">
+                  <Link href="/equipment" className="hover:text-white transition-colors">
                     {t(item.labelKey as any)}
                   </Link>
                 </li>
@@ -60,7 +60,7 @@ export default async function Footer() {
             <ul className="space-y-2.5 text-sm">
               {serviceLinks.map((item) => (
                 <li key={item.key}>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href="/parts-service" className="hover:text-white transition-colors">
                     {t(item.labelKey as any)}
                   </Link>
                 </li>
@@ -93,8 +93,8 @@ export default async function Footer() {
         <div className="border-t border-steel-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-steel-600">
           <span>&copy; {year} WanShing Machinery. {t('rights')}</span>
           <div className="flex items-center gap-5">
-            <Link href="#" className="hover:text-steel-400 transition-colors">{t('privacy')}</Link>
-            <Link href="#" className="hover:text-steel-400 transition-colors">{t('terms')}</Link>
+            <Link href="/privacy" className="hover:text-steel-400 transition-colors">{t('privacy')}</Link>
+            <Link href="/terms" className="hover:text-steel-400 transition-colors">{t('terms')}</Link>
           </div>
         </div>
       </div>
