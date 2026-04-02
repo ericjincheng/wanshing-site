@@ -63,13 +63,4 @@ export default async function EquipmentCatalogPage({ searchParams }: PageProps) 
             initialEquipment={equipment}
             activeFilters={{
               category: searchParams.category ?? '',
-              brand:    searchParams.brand    ?? '',
-              capacity: searchParams.capacity ?? '',
-            }}
-          />
-        </Suspense>
-      </main>
-      <Footer />
-    </>
-  )
-}
+              brand:    se

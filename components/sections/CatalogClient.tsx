@@ -311,6 +311,4 @@ function EmptyState({ onClear, t }: { onClear: () => void; t: any }) {
       >
         {t('catalog.clearAllFilters')}
       </button>
-    </div>
-  )
-}
+    </d

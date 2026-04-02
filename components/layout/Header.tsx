@@ -149,8 +149,4 @@ export default function Header() {
               {t('requestQuote')}
             </Link>
           </div>
-        </div>
-      </div>
-    </header>
-  )
-}
+        </d
