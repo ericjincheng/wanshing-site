@@ -478,8 +478,9 @@ git diff HEAD            # What changed
 | 2026-04-01 | `311788ab` | Fix: exclude studio/ from Next.js tsconfig | Claude Code |
 | 2026-04-01 | `ba03be02` | Fix: jiti pinning, next/font migration, remove legacy files, ISR revalidate | Claude Code |
 | 2026-04-02 | — | `PROJECT_BRAIN.md` created (no code change) | Claude Code |
+| 2026-04-02 | `5a5e0c5c` | feat: white header, WS logo, steel-900 nav text | Claude Code |
 
 ---
 
-*Last updated: 2026-04-02 by Claude Code — Full codebase audit.*
+*Last updated: 2026-04-02 by Claude Code — Header redesign: white bg, real WS logo, steel-900 nav.*
 *Next update required after: any successful deployment or schema change.*
