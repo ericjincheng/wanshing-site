@@ -215,4 +215,6 @@ function PlaceholderGrid({ t }: { t: any }) {
           </div>
         </div>
       ))}
-    </d
+    </div>
+  )
+}
