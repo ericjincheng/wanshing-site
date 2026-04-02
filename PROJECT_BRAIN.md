@@ -480,6 +480,7 @@ git diff HEAD            # What changed
 | 2026-04-02 | — | `PROJECT_BRAIN.md` created (no code change) | Claude Code |
 | 2026-04-02 | `5a5e0c5c` | feat: white header, WS logo, steel-900 nav text | Claude Code |
 | 2026-04-02 | `2d8e1a17` | fix: header-scrolled reverts to dark navy — updated to white rgba | Claude Code |
+| 2026-04-02 | `7894c2d4` | feat: About Us page built; WanShing → Wanshing sitewide; zoomlion color token | Claude Code |
 
 ---
 
